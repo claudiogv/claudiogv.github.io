@@ -2,9 +2,97 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Hola</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<title>hola</title>
+	
+	<!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- MATERIALIZE -->
+    <link href="css/materialize.css" rel="stylesheet">
+
+    <link rel="stylesheet" id="switch_style" href="css/main.css">
 </head>
 <body>
-	<h1>Hola Claudio</h1>
+
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <div class="header-background ">
+        <div id="v-card-holder"> 
+            <!-- para poner el contenedor dond esta la foto  -->
+            <div class="container"> 
+                <div class="row">
+                    <div class="col m12 s12 ">
+                        <!-- V-CARD -->
+                        <div id="v-card" class="card">
+                            <!-- PROFILE PICTURE -->
+                            <div id="profile" class="right">
+                                <img class="img-responsive" src="imagenes/claudio1.jpg" width="400px">
+                                <!-- para poder en diagonal -->
+                                <div class="slant"></div>
+
+                                <div class="btn-floating btn-large add-btn">
+                                    <i class="material-icons">add</i>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+
+                                <!-- NAME & STATUS -->
+                                <div class="info-headings">
+                                    <h4 class="text-uppercase left">Claudio Gutiérrez</h4>
+                                    <h6 class="text-capitalize left">Licenciado en Computacion</h6>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="infos">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">email</i></span>
+                                            <span class="content">claudiojoguvel@gmail.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">language</i></span>
+                                            <span class="content">google.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">phone</i></span>
+                                            <span class="content">5512345678</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">place</i></span>
+                                            <span class="content">San Rafael Atlixco 186, Iztapalapa</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                
+                                <!--LINKS-->
+                                <div class="links">
+                                    <!-- FACEBOOK-->
+                                    
+                                    <img src="imagenes/facebook.png" width="50px">
+                                    <img src="imagenes/google-plus.png" width="50px">
+                                    <img src="imagenes/linkedin.png" width="50px">
+                                    <img src="imagenes/twitter.png" width="50px">
+                                   
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- ================== SCRIPTS ================== -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/materialize.min.js"></script>
 </body>
 </html>
